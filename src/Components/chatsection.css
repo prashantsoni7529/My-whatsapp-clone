@@ -1,0 +1,45 @@
+.ChatSection{
+    flex:0.75;
+}
+
+
+.ChatSection_Header{
+    display: flex;
+    padding: 6px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    background-color: rgb(245, 245, 245);
+    height:51px;
+}
+
+/* Chat Section Footer */
+.ChatSection_Footer{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid lightgray;
+    position: absolute;
+    bottom: 39px;
+    align-items: center;
+    width: 67.4vw;
+    height: 8vh;
+}
+.ChatSection_Footer>input{
+    width: 86%;
+    padding: 9px;
+    margin: auto;
+    border: 0px;
+    height: 38px;
+    background-color: white;
+    border-radius: 35px
+    
+}
+.ChatSection_Footer>input:focus{
+    outline: none;
+}
+
+.ChatSection_Footer >.MuiSvgIcon-root{
+    color: rgb(126, 125, 125);
+    padding: 10px;
+
+}

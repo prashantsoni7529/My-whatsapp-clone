@@ -1,0 +1,78 @@
+.Sidebar{
+    flex:0.25;
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+
+}
+.Sidebar_header{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid lightgray;
+    justify-content: space-between;
+    background-color: rgb(245, 245, 245);
+    height: 62px;
+
+}
+.Sidebar_header_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 10vw;
+}
+.Sidebar_header_right>.MuiSvgIcon-root{
+margin-right: 2vw;
+font-size: 24px;
+}
+
+/* Sidebar search */
+.Sidebar_Search{
+    display: flex;
+    background-color: rgb(209, 207, 207);
+    height: 35px;
+    padding:10px;
+}
+.Sidebar_search_container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+}
+.Sidebar_search_container> input{
+    border: none;
+    margin-left: 10px;
+    width: 100%;
+}
+.Sidebar_search_container> input:focus{
+    outline: none;
+}
+
+.Sidebar_search_container> .MuiSvgIcon-root{
+    color:gray;
+    padding: 10px;
+}
+
+/* Sidebar chats CSS */
+.Sidebar_chats{
+    flex:1;
+    overflow: scroll;
+    background-color: white;
+}
+.Sidebarchats{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    cursor: pointer;
+}
+.Sidebarchats:hover{
+    background-color: rgb(241, 238, 238);
+}
+.chatroominfo{
+    padding-left: 15px;
+}
+.chatroominfo>h3{
+    font-size: medium;
+    font-family: cursive;
+}
